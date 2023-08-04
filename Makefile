@@ -1,7 +1,7 @@
 .PHONY: test install
 
 install:
-	go get -t -v ./...
+	go get -t -v ./
 
 test: install
-	go test -race -cover -v ./...
+	go test -race -cover -v ./
